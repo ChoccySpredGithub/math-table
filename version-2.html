@@ -1,0 +1,346 @@
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<style>
+  .overline {
+    text-decoration: overline;
+    font-size: 15px;
+    margin: 0 5px;
+</style>
+<h>Created by ChoccySpred. See usage policy in HTML file for more information.</h>
+<!--Developed from 26/4/25 to 28/4/25 as of V2-->
+
+<!--
+============================================================
+===================  USAGE POLICY  =========================
+============================================================
+
+BY USING THIS TABLE, YOU AGREE:
+------------------------------------------------------------
+	1. THAT THE MATERIAL USED DOES NOT HAVE ANY TWEAKS.
+	2. NOT TO CHANGE THE HTML CODE IN ANY WAY.
+	3. NOT TO REMOVE THE TEXT:
+   		"Created by ChoccySpred. See usage policy in HTML file for 			more information."
+	   OR:
+		"V1"
+	4. THAT THE COPYRIGHT BELONGS TO ChoccySpred.
+	5. NOT TO REMOVE THE USAGE POLICY.
+------------------------------------------------------------
+
+Thank you for respecting the original creator's work!
+
+============================================================
+-->
+
+<table style="width:100%; border-collapse: collapse; text-align: center; font-family: 'Open Sans', sans-serif;" border="3">
+    <thead style="background-color: #f2f2f2;">
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>=</td>
+            <td>Equals</td>
+            <td>The left side is equal to the right side</td>
+            <td>5 = 3 + 2</td>
+        </tr>
+        <tr>
+            <td>&ne;</td>
+            <td>Not equal to</td>
+            <td>Left side is <i>not</i> equal to right side</td>
+            <td>7 &ne; 2 + 8</td>
+        </tr>
+        <tr>
+            <td>&asymp;</td>
+            <td>Approximately equal to</td>
+            <td>Shows estimation, approximation or rounding</td>
+            <td>sin(0.01) &asymp; 0.01<br>sin(0.01) is not <i>exactly</i> 0.01</td>
+        </tr>
+        <tr>
+            <td>+</td>
+            <td>Plus / Addition</td>
+            <td>Add two numbers together</td>
+            <td>4 + 2 = 8</td>
+        </tr>
+        <tr>
+            <td>-</td>
+            <td>Minus / Subtraction</td>
+            <td>Take the second number away from the first</td>
+            <td>7 - 5 = 2</td>
+        </tr>
+        <tr>
+            <td>&times;</td>
+            <td>Times / Multiplication</td>
+            <td>Adds the number to itself a certain amount of times</td>
+            <td>3 &times; 4 = 12</td>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Multiplication Asterisk</td>
+            <td>Multiplication</td>
+            <td>3 * 4 = 12</td>
+        </tr>
+        <tr>
+            <td><b>&sdot;</b></td>
+            <td>Multiplication Dot</td>
+            <td>Multiplication</td>
+            <td>3 <b>&sdot;</b> 4 = 12</td>
+        </tr>
+        <tr>
+            <td>&divide;</td>
+            <td>Division / Obelus</td>
+            <td>How many times a certain number goes into a different number</td>
+            <td>8 &divide; 4 = 2</td>
+        </tr>
+        <tr>
+            <td>/</td>
+            <td>Division Slash</td>
+            <td>Division</td>
+            <td>8 / 4 = 2</td>
+        </tr>
+        <tr>
+            <td>&mdash;&ndash;</td>
+            <td>Division Line / Fraction</td>
+            <td>Division</td>
+            <td>
+                <math>
+                    <mfrac>
+                        <mn>8</mn>
+                        <mn>4</mn>
+                    </mfrac>
+                </math> = 2
+            </td>
+        </tr>
+        <tr>
+            <td>( )</td>
+            <td>Parentheses</td>
+            <td>Calculate expression inside it first</td>
+            <td>8 × (5 - 2) = 24<br>8 × 3 = 24</td>
+        </tr>
+        <tr>
+            <td>&gt;</td>
+            <td>Strict greater than</td>
+            <td>Left value is bigger in value than right value</td>
+            <td>12 &gt; 9<br>12 is greater than 9</td>
+        </tr>
+        <tr>
+            <td>&lt;</td>
+            <td>Strict less than</td>
+            <td>Left value is lesser in value than right value</td>
+            <td>7 &lt; 13<br>7 is less than 13</td>
+        </tr>
+        <tr>
+            <td>&ge;</td>
+            <td>Greater than <i>or equal to</i></td>
+            <td>Left value is bigger in value than <i>or equal to</i> the right value</td>
+            <td>5 &ge; 4</td>
+        </tr>
+        <tr>
+            <td>&le;</td>
+            <td>Less than <i> or equal to</i></td>
+            <td>Left value is smaller in value than <i>or equal to</i> the right value</td>
+            <td>4 &le; 5</td>
+        </tr>
+        <tr>
+            <td>&plusmn;</td>
+            <td>Plus or minus</td>
+            <td>Two results &ndash; whether you add or subtract</td>
+            <td>4 &plusmn 7 = 11 <i>or</i> -3</td>
+        </tr>
+        <tr>
+            <td><span style="display:inline-block; transform: rotate(180deg);">&plusmn;</span></td>
+            <td>Minus or plus</td>
+            <td>Two results &ndash; whether you subtract or add</td>
+            <td>4 <span style="display:inline-block; transform: rotate(180deg);">&plusmn;</span> 7 = -3 <i>or</i> 11</td>
+        </tr>
+        <tr>
+            <td>mod</td>
+            <td>Modulo</td>
+            <td>Calculated remainer of two numbers when divided</td>
+            <td>7 mod 2 = 1<br>When you do 7 &divide; 2 you get a remainder of 1</td>
+        </tr>
+        <tr>
+            <td>&radic;</td>
+            <td>Square root</td>
+            <td>&radic;a &times; &radic;a = a</td>
+            <td>&radic;64 = 8<br>8 &times; 8 = 64</td>
+        </tr>
+        <tr>
+            <td><sup>3</sup>&radic;</td>
+            <td>Cube root</td>
+            <td><sup>3</sup>&radic;a &times; <sup>3</sup>&radic;a &times; <sup>3</sup>&radic;a = a</td>
+            <td><sup>3</sup>&radic;27 = 3<br>3 &times; 3 &times; 3 = 27</td>
+        </tr>
+        <tr>
+            <td><sup>n</sup>&radic;</td>
+            <td>nth root (Radical)</td>
+            <td><sup>n</sup>&radic;a &times <sup>n</sup>&radic;a ... &times; <sup>n</sup>&radic;a = a</td>
+            <td><sup>5</sup>&radic;1024 = 4<br>4 &times; 4 &times; 4 &times; 4 &times; 4 = 1024</td>
+        </tr>
+        <tr>
+            <td>&#37;</td>
+            <td>Percent</td>
+            <td>1&#37; = <math>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>100</mn>
+            </td>
+            </mfrac>
+            </math>
+            <td>20&#37; &times; 10 = 2</td>
+        </tr>
+        <tr>
+            <td>&permil;</td>
+            <td>Permille</td>
+            <td>1&permil; = <math>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>1000</mn>
+                    </mfrac>
+                </math></td>
+            <td>250&permil; &times; 40 = 10</td>
+        </tr>
+        <tr>
+            <td>&angle;</td>
+            <td>Angle</td>
+            <td>An angle, created by two rays</td>
+            <td>&angle;ABC</td>
+        </tr>
+        <tr>
+            <td>m&angle;</td>
+            <td>Measured Angle</td>
+            <td>The measurement of an angle</td>
+            <td>m&angle;ABC = 45&deg;</td>
+        </tr>
+        <tr>
+            <td>&deg;</td>
+            <td>Degrees</td>
+            <td>1 turn = 360&deg;</td>
+            <td>&alpha; = 60&deg;</td>
+        </tr>
+        <tr>
+            <td>deg</td>
+            <td>Degrees</td>
+            <td>1 turn = 360deg</td>
+            <td>&alpha; = 60deg</td>
+        </tr>
+        <tr>
+            <td><sup>c</sup></td>
+            <td>Radians</td>
+            <td>1 turn = 2&pi;<sup>c</sup></td>
+            <td>&alpha; =
+                <span style="display: inline-block; vertical-align: middle;">
+                    <math>
+                        <mfrac>
+                            <mn>&pi;</mn>
+                            <mn>3</mn>
+                        </mfrac>
+                    </math>
+                </span>
+                <sup style="vertical-align: super;">c</sup>
+            </td>
+        </tr>
+        <tr>
+            <td>rad</td>
+            <td>Radians</td>
+            <td>1 turn = 2&pi;rad</td>
+            <td>&alpha; = <math>
+                    <mfrac>
+                        <mn>3&pi;</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </math>rad</td>
+        </tr>
+        <tr>
+            <td><sup>g</sup></td>
+            <td>Gradians</td>
+            <td>1 turn = 400<sup>g</sup></td>
+            <td>&alpha; = 20<sup>g</sup>
+        </tr>
+        <tr>
+            <td>grad</td>
+            <td>Gradians</td>
+            <td>1 turn = 400grad</td>
+            <td>&alpha; = 20grad</td>
+        </tr>
+        <tr>
+            <td>&pi;</td>
+            <td>Pi constant</td>
+            <td>The circumference of a circle divided by the diameter</td>
+            <td>&pi; &asymp; 3.1415927</td>
+        </tr>
+        <tr>
+            <td>e</td>
+            <td>e constant<br>Euler's Number</td>
+            <td>e &asymp; 2.7182818</td>
+            <td>e = lim<sub>n→∞</sub> (1 + <math>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>n</mn>
+                    </mfrac>
+                </math>)<sup>n</sup></td>
+        </tr>
+        <tr>
+            <td>&gamma;</td>
+            <td>Gamma constant<br>Euler-Mascheroni Constant</td>
+            <td>&gamma; &asymp; 0.5772157</td>
+            <td>&gamma; = lim<sub>n→∞</sub> (1 + <math>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </math> + <math>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>3</mn>
+                    </mfrac>
+                </math> + ... + <math>
+                    <mfrac>
+                        <mn>1</mn>
+                        <mn>n</mn>
+                    </mfrac>
+                </math> − ln&nbsp;n)</td>
+        </tr>
+        <tr>
+            <td>&phi;</td>
+            <td>Golden Ratio constant</td>
+            <td>&phi; &asymp; 1.618034</td>
+            <td>&phi; = <math>
+                    <mfrac>
+                        <mn>1 + &radic;5</mn>
+                        <mn>2</mn>
+                    </mfrac>
+                </math></td>
+        </tr>
+        <tr>
+            <td><b>'</b></td>
+            <td>Prime</td>
+            <td>Arcminute &ndash; 1&deg; = 60<b>'</b></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><b>''</b></td>
+            <td>Double prime</td>
+            <td>Arcsecond &ndash; 1<b>'</b> = 60<b>''</b></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><span style="display:inline-block; transform: rotate(180deg);">T</span></td>
+            <td>Perpendicular</td>
+            <td>Two lines meeting at a 90&deg; angle</td>
+            <td><span class="overline">AB</span> <span style="display:inline-block; transform: rotate(180deg);">T</span> <span class="overline">CD</span></td>
+        </tr>
+        <tr>
+          <td><b>∥</b></td>
+          <td>Parallel</td>
+          <td>Parallel lines</td>
+          <td><span class="overline">AB</span> <b>∥</b> <span class="overline">CD</span></td>
+        </tr>
+    </tbody>
+</table>
+<h4>V2: This will be updated in the future. See the <a href="https://github.com/ChoccySpredGithub/math-table" target="_blank">GitHub repository</a> for prior versions.</h4>
